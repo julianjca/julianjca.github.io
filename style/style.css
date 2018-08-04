@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato';
+  background-color: #E9F1F3;
+}
+
+.judul {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 200%;
+  padding: 5% 0;
+  color: #3483D7;
+  text-transform: uppercase;
+}
+
+.action-button {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5% 20px;
+}
+
+.action-button button {
+  width: 140px;
+  height: 50px;
+  background-color: #B4D371;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin: 0 50px;
+}
+
+.container-nyawa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 50px;
+  grid-gap: 40px;
+}
+
+#nyawaPlayer,
+#nyawaMonster {
+  background-color: #91C1EA;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5% 0;
+}
+
+#log {
+  background-color: #3483D7;
+  color: #E9F1F3;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100px;
+  width: 1000px;
+}

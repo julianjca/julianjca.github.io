@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <title>Monster Slayer</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+  <div class="judul">
+    <h1>Monster Slayer</h1>
+  </div>
+
+  <div class="app">
+    <div class="container-nyawa">
+      <div id="nyawaPlayer">100</div>
+      <div id="nyawaMonster">100</div>
+    </div>
+
+    <div class="action-button">
+      <button id="serang" onclick="attack()">Attack</button>
+      <button id="special" onclick="special()">Special</button>
+      <button id="heal" onclick="heal()">Heal</button>
+      <button id="restart-game" onclick="restart()">Restart</button>
+    </div>
+  </div>
+
+  <div id="log">
+    <h2 id="log1"></h2>
+    <h2 id="log2"></h2>
+  </div>
+
+  <script src="./script/app.js"></script>
+
+</body>
+
+</html>
